@@ -1,0 +1,258 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(160deg , #b29bc2 ,#c292de );
+  padding: 50px;
+  box-sizing: border-box;
+}
+.landing
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.landing button{
+  background-color: white;
+  color: #241b2a;
+  padding: 10px;
+  font-size: 20px;
+  border: solid white 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.landing button:hover{
+  color: white;
+  background-color: #c292de;
+  transition: 0.2s;
+}
+.landing h3{
+  color: black;
+  margin-bottom: 20px;
+}
+.signup h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: white solid 2px;
+}
+.signup form{
+  background-color: white;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.signup form div input{
+  height: 40px;
+  width: 450px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.signup form fieldset{
+  display: grid;
+  grid-template-columns: 30px 80px;
+  margin-bottom: 20px;
+}
+.signup form fieldset input {
+  height: 20px;
+  margin-bottom: 10px;
+}
+.signup form input[type="submit"]{
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  background-color: white;
+  color: #241b2a;
+  border-color: white;
+}
+.login span{
+text-align: center;
+display: block;
+}
+.login h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: white solid 2px;
+}
+.login form{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.login form input {
+  height: 40px;
+  width: 450px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+    box-sizing: border-box;
+}
+.login form input[type="submit"]
+{
+  width: 300px;
+}
+.add-task h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: white solid 2px;
+}
+.add-task form{
+  background-color: white;
+    width: 550px;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    row-gap: 15px;
+    column-gap: 20px;
+    align-items: center;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+}
+.add-task form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.add-task form input{
+  width: 350px;
+  height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.add-task form textarea{
+    border: solid black 2px ;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.add-task form input[type="submit"]
+{
+  width: 200px;
+} 
+.btn{
+  margin: auto;
+  display: block;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+​
+.btn:hover {
+  color: white;
+}
+.task-list h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: white solid 2px;
+}
+​
+.task-list table {
+  color: white;
+  margin: auto;
+  padding: 3px;
+}
+.task-list table thead tr th{
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 22px;
+}
+.task-list tbody tr td {
+  color: white;
+  font-size: 19px;
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid black;
+}
+​
+.edit-task h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: white solid 2px;
+}
+​
+.edit-task form {
+  background-color: white;
+  width: 550px;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 100px 200px;
+  row-gap: 15px;
+  column-gap: 20px;
+  align-items: center;
+  box-shadow: 5px 5px 30px rgb(0, 0, 0);
+}
+​
+.edit-task form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+​
+.edit-task form input {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+​
+.edit-task form textarea {
+  border: solid black 2px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+​
+.edit-task form input[type="submit"] {
+  width: 200px;
+}
+
+.signup>a{
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

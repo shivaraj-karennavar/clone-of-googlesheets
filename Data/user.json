@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "userName": "chandru",
+      "mailid": "chandru@abc",
+      "password": "chandru",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "userName": "shivaraj",
+      "mailid": "shivaraj@abc",
+      "password": "shiva",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "userName": "niranjan",
+      "mailid": "niranjan@abc",
+      "password": "niranjan",
+      "gender": "Male",
+      "id": 3
+    },
+    {
+      "userName": "giri",
+      "mailid": "giri@abc",
+      "password": "giri",
+      "gender": "Male",
+      "id": 4
+    }
+  ]
+}
